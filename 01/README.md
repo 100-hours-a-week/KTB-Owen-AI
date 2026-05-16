@@ -34,9 +34,9 @@ CPU : 85.0 TPS
 
 ### 테스트 이미지 
 - 이미지 1 -> 실제 cli 호출
-
+    - 이미지 안뜨는 경우 "../01/IMG/CMD_IMG.png" 에 존재
 <img src="../01/IMG/CMD_IMG.png" width="600">
 
 - 이미지 2 -> 실제 텔레그램 전송
-
+    - 이미지 안뜨는 경우 "../01/IMG/telegram_IMG.png" 에 존재 
 <img src="../01/IMG/telegram_IMG.png" width="300">
