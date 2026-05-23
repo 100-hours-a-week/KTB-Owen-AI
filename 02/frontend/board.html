@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게시판</title>
+    <link rel="stylesheet" href="./css/board.css">
+</head>
+<body>
+    <main class="board-page">
+        <header class="board-header">
+            <div>
+                <h1>게시판</h1>
+                <p class="user-info"><span id="currentUser"></span>님</p>
+            </div>
+            <button type="button" id="logoutButton" class="secondary-button">로그아웃</button>
+        </header>
+
+        <section class="write-card">
+            <h2>글 작성</h2>
+            <form id="postForm">
+                <div class="form-group">
+                    <label for="title">제목</label>
+                    <input type="text" id="title" name="title" placeholder="제목을 입력하세요" required>
+                </div>
+                <div class="form-group">
+                    <label for="content">내용</label>
+                    <textarea id="content" name="content" rows="5" placeholder="내용을 입력하세요" required></textarea>
+                </div>
+                <button type="submit" id="submitButton">등록</button>
+                <p id="formMessage" class="message"></p>
+            </form>
+        </section>
+
+        <section class="list-card">
+            <h2>게시글 목록</h2>
+            <p id="listMessage" class="message"></p>
+            <ul id="postList" class="post-list"></ul>
+        </section>
+    </main>
+
+    <script src="./js/board.js"></script>
+</body>
+</html>
