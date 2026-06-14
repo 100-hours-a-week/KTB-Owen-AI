@@ -31,6 +31,8 @@ Thumbs.db
 *.csv
 *.parquet
 *.arrow
+*.json
+*.jsonl
 data/
 logs/
 *.log
